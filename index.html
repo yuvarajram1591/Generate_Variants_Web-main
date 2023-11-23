@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="section">
+      <div class="theme-container">
+        <h1>Theme Generation</h1>
+        <div class="theme-row">
+          <div class="input-fields">
+            <label for="color">Theme Name </label>
+            <input type="text" name="" id="color" placeholder="Color" />
+            <button class="btn btn-add-attribute">Add</button>
+            <p class="msg">Seperate values by Comma</p>
+          </div>
+          <div class="attributes">
+            <label>Theme Attributes</label>
+            <div class="attribute-box box-color"></div>
+          </div>
+        </div>
+        <div class="theme-row">
+          <div class="input-fields">
+            <label for="size">Theme Name </label>
+            <input type="text" name="" id="size" placeholder="Size" />
+            <button class="btn btn-add-attribute">Add</button>
+            <p class="msg">Seperate values by Comma</p>
+          </div>
+          <div class="attributes">
+            <label>Theme Attributes</label>
+            <div class="attribute-box box-size"></div>
+          </div>
+        </div>
+        <div class="theme-row">
+          <div class="input-fields">
+            <label for="brand">Theme Name </label>
+            <input type="text" name="" id="brand" placeholder="Brand" />
+            <button class="btn btn-add-attribute">Add</button>
+            <p class="msg">Seperate values by Comma</p>
+          </div>
+          <div class="attributes">
+            <label>Theme Attributes</label>
+            <div class="attribute-box box-brand"></div>
+          </div>
+        </div>
+        <div class="footer">
+          <button class="btn btn-generate">Generate Variants</button>
+        </div>
+      </div>
+      <div class="variant-section hidden">
+        <h1>Variants List</h1>
+        <button class="btn btn-add-variant">Add Variants</button>
+        <div class="variant-container">
+          <!-- <div class="cart-box">
+            <p>Brand: Adidas <span> 01</span></p>
+            <p>Size: small</p>
+            <p>Color: Blue</p>
+          </div> -->
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
